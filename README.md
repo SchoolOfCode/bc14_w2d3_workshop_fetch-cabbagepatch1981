@@ -4,11 +4,11 @@
 
 ### Task 1 - The Fetch Bit
 
-In this task, we will fetch some data from a server. The data we receive will be in JSON format and will contain a quote. We will use fetch to send a GET request to `https://zenquotes.io/api/random/` and will extract the data from the response object. Remember to go step by step, break down each step, and plan before you code.
+In this task, we will fetch some data from a server. The data we receive will be in JSON format and will contain a quote. We will use fetch to send a GET request to `https://zenquotes.io/api/random/` and will extract the data from the response object. Remember to go step by step, break down each step, and plan before you code. DONE
 
-👉 Write an async function called `getQuote`.
+👉 Write an async function called `getQuote`. DONE
 
-👉 Use fetch to send a GET request to `https://zenquotes.io/api/random/` and store the resolved value of the returned promise in a variable called `response`.
+👉 Use fetch to send a GET request to `https://zenquotes.io/api/random/` and store the resolved value of the returned promise in a variable called `response`. DONE
 
 👉 Call the `.json()` method on the response variable to parse the JSON data contained in the response object. Store the resolved value of the returned promise in a variable called `data`.
 
