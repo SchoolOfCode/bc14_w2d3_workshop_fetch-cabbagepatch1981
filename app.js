@@ -15,10 +15,10 @@ console.log(response);
 const data = await response.json();
 console.log(data);
 // .json parses the data contained the in response variable
-const quoteText = data[0];
+const quoteText = data.data[0];
 console.log(quoteText);
-const quoteElement = document.getElementById(".quote");
-quoteElement.textContent = "quoteText";
+const quoteElement = document.getElementById("quote");
+quoteElement.textContent = quoteText;
 console.log(quoteElement);
 // await for both fetch and response
 }
